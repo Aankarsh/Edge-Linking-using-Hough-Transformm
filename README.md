@@ -26,17 +26,16 @@ Using the HoughLinesP(),detect line co-ordinates for every points in the images.
 ### Reg.No: 212223233001
 ### Input image and grayscale image
 ```
+# NAME : AANKARSH J
+# Reg.No: 212223233001
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-
-gray = cv2.imread('beaut.jpg', cv2.IMREAD_GRAYSCALE)
-img_color = cv2.imread('beaut.jpg', cv2.IMREAD_COLOR)
+gray = cv2.imread('sunflower.jpg', cv2.IMREAD_GRAYSCALE)
+img_color = cv2.imread('sunflower.jpg', cv2.IMREAD_COLOR)
 img_c = cv2.cvtColor(img_color, cv2.COLOR_BGR2RGB)
 gray_rgb = cv2.cvtColor(gray, cv2.COLOR_GRAY2RGB)
-
 gray = cv2.GaussianBlur(gray, (3, 3), 0)
-
 plt.figure(figsize=(13, 13))
 plt.subplot(1, 2, 1)
 plt.imshow(img_c)
@@ -47,6 +46,7 @@ plt.imshow(gray_rgb, cmap='gray')
 plt.title("Gray Image")
 plt.axis("off")
 plt.show()
+
 ```
 ### Canny Edge detector output
 ```

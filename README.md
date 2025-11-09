@@ -73,13 +73,15 @@ plt.show()
 ## Output:
 
 ### Input image and grayscale image
-<img width="1259" height="418" alt="image" src="https://github.com/user-attachments/assets/6046e875-b80e-496b-873e-1c96ef3d3983" />
+<img width="1027" height="347" alt="download" src="https://github.com/user-attachments/assets/a72efd66-9a80-48de-a9c7-b137045a3bfc" />
+
 
 ### Canny Edge detector output
-<img width="669" height="460" alt="image" src="https://github.com/user-attachments/assets/d20c06f3-5dcd-4e5c-86ef-3eecb1da2d82" />
+<img width="515" height="372" alt="download" src="https://github.com/user-attachments/assets/76e178d2-4c82-432f-a84e-d28c45c21d0c" />
+
 
 ### Display the result of Hough transform
-<img width="685" height="459" alt="image" src="https://github.com/user-attachments/assets/e07510e6-e29e-4fa2-b4d1-0d6c33bbae02" />
+<img width="515" height="372" alt="download" src="https://github.com/user-attachments/assets/d46f4aa0-eb11-4a99-9582-baab64517d45" />
 
 ## Result:
 Thus, the image has been successfully converted.
